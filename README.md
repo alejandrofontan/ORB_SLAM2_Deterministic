@@ -3,7 +3,7 @@ This repository contains a deterministic variant of ORB_SLAM2 that modifies the 
 repeatable results across different runs. Additionally, we've made extra modifications, including the ability to compile ORB-SLAM2 without Pangolin, save the trajectory as a collection of frame poses in monocular mode, and updating dependencies to their latest versions."
 
 ### Related Publications:
-Alejandro Fontan, Javier Civera and Michael Milford. **Motion-Bias-Free Feature-Based SLAM**. *The British Machine Vision Conference, BMVC 2023. **[PDF](https://arxiv.org/pdf/2309.06792.pdf)**.
+Alejandro Fontan, Javier Civera and Michael Milford. **Motion-Bias-Free Feature-Based SLAM**. *The British Machine Vision Conference, BMVC 2023*. **[PDF](https://arxiv.org/pdf/2309.06792.pdf)**.
 
 ### Updated Libraries
 C++17, OpenCV 4.7.0, Eigen 3.4.0 and Pangolin 0.8
