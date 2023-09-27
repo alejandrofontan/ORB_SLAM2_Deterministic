@@ -22,7 +22,7 @@ COMPILE_WITH_PANGOLIN
   Deactivate this option to run ORB-SLAM2 without compiling Pangolin.
 
 # Extra-modifications
-1) **#include <unistd.h>** in System.h
+1) `#include <unistd.h>` in System.h
 2) **Fixed the code in LoopClosing.h**:
 ```
 typedef map<KeyFrame*,g2o::Sim3,std::less<KeyFrame*>,
@@ -36,5 +36,5 @@ The deterministic version of ORB-SLAM2 in this fork has only been tested in mono
 
 # References
 Link to the original ORB-SLAM2 repository
-<a href="https://github.com/raulmur/ORB_SLAM2" target="_blank"><img src="https://github.com/raulmur/ORB_SLAM2" 
+<a href="https://github.com/raulmur/ORB_SLAM2" target="_blank"><"https://github.com/raulmur/ORB_SLAM2" 
   
