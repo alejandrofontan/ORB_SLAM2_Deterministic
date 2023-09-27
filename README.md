@@ -1,12 +1,9 @@
 # ORB_SLAM2_Deterministic
 This repository contains a deterministic variant of ORB_SLAM2 that modifies the components that introduce non-determinism in the algorithm. The deterministic version aims to provide consistent and 
-repeatable results across different runs.
+repeatable results across different runs. Additionally, we've made extra modifications, including the ability to compile ORB-SLAM2 without Pangolin, save the trajectory as a collection of frame poses in monocular mode, and updating dependencies to their latest versions."
 
 # Updated Libraries
-C++17
-OpenCV 4.7.0
-Eigen 3.4.0
-Pangolin 0.8
+C++17, OpenCV 4.7.0, Eigen 3.4.0 and Pangolin 0.8
 
 # Modifications for Determinism
 1) **Sorted Functions**: We've modified sort functions to ensure deterministic behavior when two or more elements are equal.
